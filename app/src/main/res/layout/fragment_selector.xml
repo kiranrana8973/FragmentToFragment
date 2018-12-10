@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Enter a Message"
+        android:textSize="20sp"
         android:gravity="center"
         />
 
@@ -25,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Choose a fragment"
+        android:textSize="20sp"
         android:gravity="center"/>
 
     <Button

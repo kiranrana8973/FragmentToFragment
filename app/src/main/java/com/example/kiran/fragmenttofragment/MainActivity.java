@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity implements IMainActivity{
         init();
     }
 
-
     private void init()
     {
         SelectorFragment fragment = new SelectorFragment();
         doFragmentTransaction(fragment,getString(R.string.fragment_selector),false,"");
     }
+
     private void doFragmentTransaction(Fragment fragment,String tag,boolean addToBackStack,String message )
     {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
