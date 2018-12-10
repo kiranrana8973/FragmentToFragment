@@ -38,7 +38,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment A"
+        android:text="Fragment B"
         android:layout_gravity="center"
         android:id="@+id/btnFragmentB"
         />
@@ -46,7 +46,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment A"
+        android:text="Fragment C"
         android:layout_gravity="center"
         android:id="@+id/btnFragmentC"
         />

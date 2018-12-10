@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FragmentToFragment</string>
+    <string name="fragmenta">Fragment A</string>
+    <string name="fragmentb">Fragment B</string>
+    <string name="fragmentc">Fragment C</string>
+    <string name="fragment_selector">Fragment Selector</string>
+
+    <string name="intent_message">intent_message</string>
+
+
 </resources>
