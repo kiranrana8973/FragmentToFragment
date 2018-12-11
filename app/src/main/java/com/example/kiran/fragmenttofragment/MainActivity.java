@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements IMainActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        toolbarTitle = findViewById(R.id.toollbar_title);
+        toolbarTitle = findViewById(R.id.toolbar_title);
 
         init();
     }

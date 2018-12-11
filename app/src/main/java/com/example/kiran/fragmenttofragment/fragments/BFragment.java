@@ -8,21 +8,14 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.widget.TextView;
-
 import com.example.kiran.fragmenttofragment.IMainActivity;
 import com.example.kiran.fragmenttofragment.MainActivity;
 import com.example.kiran.fragmenttofragment.R;
 
-import java.util.zip.Inflater;
-
-public class AFragment extends Fragment {
-
-    private static final String TAG = "AFragment";
+public class BFragment extends Fragment {
     IMainActivity iMainActivity;
-    private TextView mIncomingMessage;
-    private String message;
+    private static final String TAG = "BFragment";
+
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -33,20 +26,12 @@ public class AFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         iMainActivity.setToolbarTitle(getTag());
-
-        Bundle bundle = this.getArguments();
-        if(bundle!= null)
-        {
-            message = bundle.getString(getString(R.string.intent_message));
-        }
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_a,container,false);
-        mIncomingMessage = view.findViewById(R.id.incoming_messageA);
-
+        View view = inflater.inflate(R.layout.fragment_b,container,false);
         return view;
     }
 }

@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/incoming_messageA"
+        android:id="@+id/incoming_messageB"
         android:textSize="20sp"
         android:text="Incoming Message"
         android:layout_centerInParent="true"
